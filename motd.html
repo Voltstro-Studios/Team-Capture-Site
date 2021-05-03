@@ -71,13 +71,15 @@
     <script src="./thirdparty/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
       function setUserDetails() {
-        if (typeof userDetails !== 'undefined') {
-          console.log("Player name is: " + userDetails.UserName);
-          document.getElementById("playerName").innerHTML = userDetails.UserName;
-        }
-        else{
-          window.location.replace("./");
-        }
+        setTimeout(function() {
+          if (typeof userDetails !== 'undefined') {
+            console.log("Player name is: " + userDetails.UserName);
+            document.getElementById("playerName").innerHTML = userDetails.UserName;
+          }
+          else{
+            window.location.replace("./");
+          }
+        }, 500);
       }
     </script>
   </body>
