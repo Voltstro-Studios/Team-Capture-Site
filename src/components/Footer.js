@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'components/Router'
 
+import Icon from '../assets/images/Voltstro-Studios-Icon.png'
+
 const Footer = () => {
     return (
         <footer className="footer fixed-bottom mt-auto py-3 justify-content-between" id="footer">
@@ -8,7 +10,7 @@ const Footer = () => {
                 <div className="row align-items-center">
                     <div className="col">
                         <Link to="/">
-                            <img alt="Voltstro-Studios" src="./images/Voltstro-Studios-Icon.png"></img>
+                            <img alt="Voltstro-Studios" src={Icon} />
                         </Link>
                         <span className="mx-2 text-muted">(c) 2019-2021 Voltstro-Studios</span>
                     </div>

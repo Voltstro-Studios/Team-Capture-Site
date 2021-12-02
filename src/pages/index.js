@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 
 import {Link} from 'components/Router'
-import '../css/index.css'
+import '../assets/css/index.css'
 import Helmet from "react-helmet";
 
 const addBodyClass = className => document.body.classList.add(className);

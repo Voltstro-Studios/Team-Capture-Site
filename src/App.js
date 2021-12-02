@@ -5,7 +5,7 @@ import Dynamic from 'containers/Dynamic'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './css/app.css'
+import './assets/css/app.css'
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
