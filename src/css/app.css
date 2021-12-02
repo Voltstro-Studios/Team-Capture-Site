@@ -1,0 +1,50 @@
+* {
+    scroll-behavior: smooth;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.footer-link:hover {
+    color: white !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.bg-orange {
+    background-color: #FD9855;
+}
+
+.btn-download {
+    color: black;
+    background-color: white;
+    border-color: #ff8a00;
+}
+
+.btn-download:hover {
+    color: white;
+    background-color: #ff8a00;
+}
+
+.footer {
+    background-color: rgb(39, 39, 39);
+}
+
+.feature-icon {
+    font-size: 1.75rem !important;
+}
