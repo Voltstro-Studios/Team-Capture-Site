@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
+import Helmet from 'react-helmet'
+import {Link} from '@reach/router'
 
-import {Link} from 'components/Router'
 import '../assets/css/index.css'
-import Helmet from "react-helmet";
 
 const addBodyClass = className => document.body.classList.add(className);
 const removeBodyClass = className => document.body.classList.remove(className);
@@ -10,10 +10,10 @@ const removeBodyClass = className => document.body.classList.remove(className);
 function useBodyClass(className) {
     useEffect(
         () => {
-            // Set up
+            //Set up
             className instanceof Array ? className.map(addBodyClass) : addBodyClass(className);
 
-            // Clean up
+            //Clean up
             return () => {
                 className instanceof Array
                     ? className.map(removeBodyClass)

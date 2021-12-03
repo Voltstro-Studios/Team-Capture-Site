@@ -1,13 +1,14 @@
 import React from 'react'
+import Helmet from 'react-helmet'
+import {Link} from '@reach/router'
+
 import {useRouteData} from 'react-static'
-import {Link} from 'components/Router'
 
-import NavBar from "components/NavBar"
-import Footer from "components/Footer"
-import Helmet from "react-helmet";
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
-import "../assets/css/news.css"
-import "../assets/css/discordWidget.css"
+import '../assets/css/news.css'
+import '../assets/css/discordWidget.css'
 
 export default function News() {
     const {posts} = useRouteData()
@@ -26,7 +27,8 @@ export default function News() {
                         <div className="col-md-9">
                             <div className="col-lg-6 mx-auto">
                                 {posts.map(post => (
-                                    <div key={post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()} className="news-post">
+                                    <div key={post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}
+                                         className="news-post">
                                         <h2>
                                             <Link
                                                 to={`news/${post.publishDate.year}/${post.publishDate.month}/${post.publishDate.day}/${post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}/`}>
@@ -45,10 +47,12 @@ export default function News() {
                             </div>
                         </div>
                         <div className="col-md-3">
-                            <p>Come join the <a href="https://discord.voltstro.dev">Voltstro Discord server</a>, brought to you by the devs of this project!</p>
-                            <iframe className="discord-widget" src="https://discord.com/widget?id=424080906232266753&theme=dark"
+                            <p>Come join the <a href="https://discord.voltstro.dev">Voltstro Discord server</a>, brought
+                                to you by the devs of this project!</p>
+                            <iframe className="discord-widget"
+                                    src="https://discord.com/widget?id=424080906232266753&theme=dark"
                                     frameBorder="0"
-                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
                         </div>
                     </div>
                 </div>
