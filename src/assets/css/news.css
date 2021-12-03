@@ -1,0 +1,15 @@
+.news-post {
+    border-bottom: 2px solid black !important;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.news-post > h2 > a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.news-post > h2 > a:hover {
+    color: black !important;
+    text-decoration: underline solid black;
+}

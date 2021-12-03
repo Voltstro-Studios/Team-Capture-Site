@@ -14,15 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    font-family: 'Anton', sans-serif;
-}
-
-h1 {
-    font-family: 'Anton', sans-serif;
-}
-
-h2 {
+h1, h2, nav {
     font-family: 'Anton', sans-serif;
 }
 

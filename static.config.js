@@ -41,7 +41,7 @@ export default {
     children,
     state: { siteData, renderMeta },
   }) => (
-    <Html lang="en-US" class="h-100">
+    <Html lang="en-US" className="h-100">
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

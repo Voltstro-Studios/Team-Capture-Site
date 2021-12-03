@@ -1,8 +1,20 @@
 [
   {
+    "title": "Second Test!",
+    "preview":  "This is a test of having two blog posts!.",
+    "markdown": "#Welcome to the second test",
+    "author": "TC Team",
+    "publishDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 3
+    }
+  },
+  {
     "title": "Hello World!",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    "preview":  "This is a test preview.",
     "markdown": "#Hello World\nHi**Hi**",
+    "author": "TC Team",
     "publishDate": {
       "year": 2021,
       "month": 11,
