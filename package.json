@@ -2,11 +2,12 @@
   "name": "team-capture-site",
   "private": true,
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
+    "start": "npm run build-news && react-static start",
+    "stage": "npm run build-news && react-static build --staging",
+    "build": "npm run build-news && react-static build",
     "analyze": "react-static build --analyze",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "build-news": "node news/post-gen.js"
   },
   "dependencies": {
     "@reach/router": "^1.3.4",

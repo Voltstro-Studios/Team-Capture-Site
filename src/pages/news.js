@@ -27,19 +27,19 @@ export default function News() {
                         <div className="col-md-9">
                             <div className="col-lg-6 mx-auto">
                                 {posts.map(post => (
-                                    <div key={post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}
+                                    <div key={post.id}
                                          className="news-post">
                                         <h2>
                                             <Link
-                                                to={`news/${post.publishDate.year}/${post.publishDate.month}/${post.publishDate.day}/${post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}/`}>
+                                                to={`news/${post.dateYear}/${post.dateMonth}/${post.dateDay}/${post.id}/`}>
                                                 {post.title}
                                             </Link>
                                         </h2>
-                                        <p>{post.author} - {post.publishDate.year}/{post.publishDate.month}/{post.publishDate.day}</p>
+                                        <p>{post.author} - {post.dateYear}/{post.dateMonth}/{post.dateDay}</p>
                                         <p>{post.preview}</p>
                                         <Link
                                             className="btn btn-outline-secondary m-1"
-                                            to={`news/${post.publishDate.year}/${post.publishDate.month}/${post.publishDate.day}/${post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}/`}>
+                                            to={`news/${post.dateYear}/${post.dateMonth}/${post.dateDay}/${post.id}/`}>
                                             Read
                                         </Link>
                                     </div>

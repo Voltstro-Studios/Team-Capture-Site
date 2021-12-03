@@ -11,7 +11,7 @@ export default {
           posts,
         }),
         children: posts.map(post => ({
-          path: `/${post.publishDate.year}/${post.publishDate.month}/${post.publishDate.day}/${post.title.replace(/[^\w\s]/gi, '').replace(" ", "-").toLowerCase()}/`,
+          path: `/${post.dateYear}/${post.dateMonth}/${post.dateDay}/${post.id}/`,
           template: 'src/containers/Post',
           getData: () => ({
             post,
