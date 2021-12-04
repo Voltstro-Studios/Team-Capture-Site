@@ -13,3 +13,7 @@
     color: black !important;
     text-decoration: underline solid black;
 }
+
+.news-post > div > p > img {
+    width: 100%;
+}

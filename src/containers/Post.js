@@ -6,6 +6,8 @@ import {useRouteData} from 'react-static'
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
+import '../assets/css/news.css'
+
 export default function Post() {
     const {post} = useRouteData()
 
@@ -22,7 +24,7 @@ export default function Post() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-9">
-                            <div className="col-lg-6 mx-auto">
+                            <div className="col-lg-6 mx-auto news-post">
                                 <Markdown>
                                     {post.markdown}
                                 </Markdown>
