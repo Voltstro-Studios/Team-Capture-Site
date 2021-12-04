@@ -12,24 +12,24 @@ export default () => (
             <section className="py-5 text-center container">
                 <h1>About Team-Capture</h1>
                 <div className="col-lg-6 mx-auto">
-                    <p className="lead mb-4">Here is the marketing crap for our project.</p>
+                    <p className="lead mb-4">Here is some basic information on our project.</p>
                 </div>
             </section>
             <div className="container px-4 py-5">
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-joystick feature-icon"></i>
+                            <i className="bi bi-joystick feature-icon" />
                         </div>
                         <div>
                             <h2>Casual Fun</h2>
                             <p>We are nothing serious, high action movement, over the top guns and built by boxing
-                                kangaroos. No fucks are given about anything (/s).</p>
+                                kangaroos with no fucks.</p>
                         </div>
                     </div>
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-pc-display feature-icon"></i>
+                            <i className="bi bi-pc-display feature-icon" />
                         </div>
                         <div>
                             <h2>Cross-Platform</h2>
@@ -39,11 +39,11 @@ export default () => (
                     </div>
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-file-earmark-binary feature-icon"></i>
+                            <i className="bi bi-file-earmark-binary feature-icon" />
                         </div>
                         <div>
                             <h2>Open Source</h2>
-                            <p>Entire project's source code is open source, under the AGPL license. View the guts of the
+                            <p>Entire project's source code is open source, under the <a href="https://github.com/Voltstro-Studios/Team-Capture/blob/master/LICENSE">AGPL license</a>. <a href="https://github.com/Voltstro-Studios/Team-Capture">View the guts </a> of the
                                 project and do what you want to it.</p>
                         </div>
                     </div>
@@ -52,17 +52,17 @@ export default () => (
                 <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-people feature-icon"></i>
+                            <i className="bi bi-people feature-icon" />
                         </div>
                         <div>
                             <h2>Independent Team</h2>
-                            <p>The entire project is built by an independent team who work on the project in their free
+                            <p>The entire project is built by an <a href="https://github.com/Voltstro-Studios/Team-Capture/graphs/contributors">independent team</a> who work on the project in their free
                                 time. We don't have to uphold bullshit from higher ups.</p>
                         </div>
                     </div>
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-clock-history feature-icon"></i>
+                            <i className="bi bi-clock-history feature-icon" />
                         </div>
                         <div>
                             <h2>Alpha</h2>
@@ -72,11 +72,11 @@ export default () => (
                     </div>
                     <div className="col d-flex align-items-start">
                         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
-                            <i className="bi bi-building feature-icon"></i>
+                            <i className="bi bi-building feature-icon" />
                         </div>
                         <div>
                             <h2>Build On The Shoulders Of Giants</h2>
-                            <p>Built with the Unity game engine, and open source libraries such as Mirror.</p>
+                            <p>Built with the <a href="https://unity.com/">Unity game engine</a>, and open source libraries such as <a href="https://mirror-networking.com/">Mirror</a>.</p>
                         </div>
                     </div>
                 </div>
