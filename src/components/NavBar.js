@@ -10,7 +10,7 @@ const NavBar = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                             aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <ul className="navbar-nav me-auto mb-2 mb-md-0">
@@ -23,6 +23,10 @@ const NavBar = () => {
                             <li className="nav-item">
                                 <Link to="/news" className="nav-link bi bi-newspaper"> News</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to="/download" className="nav-link bi bi-file-earmark-arrow-down-fill"> Download</Link>
+                            </li>
+
                         </ul>
                         <span className="navbar-text text-black">
                         Welcome, <span id="playerName">Player</span>!

@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import {Link} from "@reach/router";
 
 export default () => (
     <div>
@@ -82,7 +83,7 @@ export default () => (
 
                 <div className="text-center container">
                     <h2>Download Now</h2>
-                    <a className="btn btn-download m-1 btn-lg" href="#" role="button">Download</a>
+                    <Link className="btn btn-download m-1 btn-lg" to="/download">Download</Link>
                     <a className="btn btn-outline-secondary m-1" href="https://github.com/Voltstro-Studios/Team-Capture"
                        role="button">View Source Code</a>
                 </div>
