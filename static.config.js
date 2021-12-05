@@ -30,8 +30,6 @@ export default {
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
   ],
-  siteRoot: "https://tc.voltstro.dev",
-  basePath: "",
   getSiteData: async ({ dev }) => ({
     title: 'Team-Capture Site',
     lastBuilt: Date.now(),
