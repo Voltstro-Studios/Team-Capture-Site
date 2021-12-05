@@ -40,3 +40,11 @@ h1, h2, h3, nav {
 .feature-icon {
     font-size: 1.75rem !important;
 }
+
+.tc-icon {
+    -webkit-text-stroke: 3px #ff8a00;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0px 28px rgba(0, 0, 0, .25);
+    font-size: 130px;
+    padding-top: 1em;
+}
