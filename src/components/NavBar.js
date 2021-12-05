@@ -13,7 +13,7 @@ const NavBar = () => {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <ul className="navbar-nav me-auto mb-2 mb-md-0">
+                        <ul className="navbar-nav me-auto mb-2 mb-md-0" id="controls-nav">
                             <li className="nav-item">
                                 <Link to="/" className="nav-link bi bi-house-fill"> Home</Link>
                             </li>
