@@ -48,6 +48,8 @@ export default {
         <meta name="description" content="Team-Capture, a multiplayer, open-source FPS game, inspired by games like Quake and TF2" />
         <meta name="keywords" content="Team-Capture, Voltstro, Voltstro-Studios, Quake, TF2, open-source, FPS" />
         <meta name="author" content="Voltstro-Studios" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet" />
