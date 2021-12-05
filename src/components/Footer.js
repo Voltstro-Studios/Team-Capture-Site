@@ -16,9 +16,9 @@ const Footer = () => {
                     </div>
                     <div className="col d-flex justify-content-end fs-5 nav-item">
                         <a href="https://github.com/Voltstro-Studios/Team-Capture"
-                           className="text-muted footer-link p-2 bi bi-github"></a>
-                        <a href="https://twitter.com/Voltstro" className="text-muted footer-link p-2 bi bi-twitter"></a>
-                        <a href="https://discord.voltstro.dev" className="text-muted footer-link p-2 bi bi-discord"></a>
+                           className="text-muted footer-link p-2 bi bi-github" />
+                        <a href="https://twitter.com/Voltstro" className="text-muted footer-link p-2 bi bi-twitter" />
+                        <a href="https://discord.voltstro.dev" className="text-muted footer-link p-2 bi bi-discord" />
                     </div>
                 </div>
             </div>
