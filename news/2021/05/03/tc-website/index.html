@@ -6,32 +6,32 @@
     <meta name="description" content="Team-Capture, a multiplayer, open-source FPS game, inspired by games like Quake and TF2">
     <meta name="keywords" content="Team-Capture, Voltstro, Voltstro-Studios, Quake, TF2, open-source, FPS">
     <meta name="author" content="Voltstro-Studios">
-    <title>Team-Capture - News</title>
-    <link rel="shortcut icon" href="../favicon.ico">
-	  <link rel="icon" sizes="16x16 32x32 64x64" href="../favicon.ico">
+    <title>Team-Capture - News - Team Capture Website</title>
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+	  <link rel="icon" sizes="16x16 32x32 64x64" href="../../../../../favicon.ico">
     <link rel="canonical" href="https://tc.voltstro.dev/motd">
-    <link rel="stylesheet" href="../thirdparty/bootstrap/icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../../../../../css/styles.css">
+    <link rel="stylesheet" href="../../../../../css/page.css">
   </head>
   <body class="d-flex flex-column h-100" onload="setUserDetails()">
     <header>
       <nav class="navbar navbar-expand-md navbar-light fixed-top text-black">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../">Team-Capture</a>
+          <a class="navbar-brand" href="../../../../../">Team-Capture</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link bi bi-house-fill" href="../"> Home</a>
+                <a class="nav-link bi bi-house-fill" href="../../../../../"> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active bi bi-newspaper" aria-current="page" href="#"> News</a>
+                <a class="nav-link active bi bi-newspaper" aria-current="page" href="../../../../"> News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link bi bi-github" href="https://github.com/Voltstro-Studios/Team-Capture" tabindex="-1"> GitHub</a>
@@ -44,56 +44,31 @@
         </div>
       </nav>
     </header>
-    <main class="flex-shrink-0 py-5 bg-white">
-
-      <section class="py-5 text-center container" id="newsHeader">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Team-Capture News</h1>
-            <p class="lead text-muted">Welcome to Team-Capture news! We will occasionally post news about the status of this project here.</p>
-          </div>
-        </div>
-      </section>
-
-      <div class="album py-5">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-			      <!-- Start of cards -->
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="2021/05/03/tc-website/img/thumbnail.png" alt="Team-Capture" class="card-img-top" width="100%" height="255" role="img" aria-label="Thumbnail">
-
-                <div class="card-body">
-                  <p class="card-text">Welcome to the Team-Capture website!</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a type="button" class="btn btn-sm tc-button" href="2021/05/03/tc-website/">View</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-			
-        </div>
+    <main class="flex-shrink-0 py-5">
+      <div class="container">
+        <h1 class="pb-2">Team-Capture Website</h1>
+        <img src="img/tc-banner.png" alt="Team-Capture Banner" class="img-fluid pb-5 mx-auto d-block" style="width: 80%; height: 80%;">
+        <h1></h1>
+        <h2>Welcome to the Team-Capture website!</h2>
+        <p>Yes, we finally stopped beating our meat to hentai and designed and built a site for Team-Capture. Is this just gonna turn into what happened with <a href="https://voltstro.dev/blog/">Voltstro's blog</a> where there is a post once a year? Maybe... possibly.</p>
+        <p>If you view this site in-game, then you will see some other cool shit we added.</p>
+        <p>Anyway, enjoy the site, its designed after Team-Capture's game UI theme, so it should look like you are at home, and I gotta say, it turned out better then what I was expecting. Turns out Bootstrap is pretty good...</p>
+        <p>Also I just realized that I gotta thing for launching sites near or in April.</p>
       </div>
-		
     </main>
-    <footer class="footer mt-auto py-3" id="footer">
+    <footer class="footer mt-auto py-3">
       <div class="container">
         <span class="text-muted">Copyright © 2019-2021 Voltstro-Studios. Team-Capture is under the
           <a href="https://github.com/Voltstro-Studios/Team-Capture/blob/master/LICENSE">AGPL-3.0 license</a>.
         </span>
       </div>
     </footer>
-    <script src="../thirdparty/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
       function setUserDetails() {
         if (typeof userDetails !== 'undefined') {
           console.log("Player name is: " + userDetails.UserName);
           document.getElementById("playerName").innerHTML = userDetails.UserName;
-          document.getElementById("footer").style.display = "none";
-          document.getElementById("newsHeader").style.display = "none";
         }
       }
     </script>
